@@ -1,0 +1,41 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
+    <title>Book Finder</title>
+</head>
+<body>
+    <div id="page-container">
+
+        <div id="search-container">
+            <h1 id="title" class="text-center mt-5">Book Finder</h1>
+            <form class="search-books my-4 text-center text-muted">
+                <div class="row">
+                    <div class="input-group mx-auto col-lg-6 col-md-8 col-sm-12">
+                        <input type="text" name="book" class="form-control p-10" placeholder="Search books by title or author">
+                        <button id="search" class="btn btn-info ml-2" onclick="">Search</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+        
+        <div class="card-list d-none text-center">
+            <!-- book cards here -->
+        </div>
+        
+        <footer id="footer">
+            <p>Cover photo by Beatriz Pérez Moya on <a href="https://www.unsplash.com">Unsplash</a>.</p>
+        </footer>
+        
+    </div>
+  
+
+<script src="books.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
