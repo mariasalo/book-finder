@@ -15,6 +15,4 @@ The page will reload if you make edits.
 
 Google API key is needed to test the search function (add to books.js line 3).
 
-Live version available here: https://.azurewebsites.net/
-
 
